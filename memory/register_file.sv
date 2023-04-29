@@ -1,11 +1,3 @@
-/**
- * Register file for CPU
- * Contains 16 32-bit registers.
- * For each clock read two registers and writes data to register.
- *
- * author: Max A.Jurankov (astronmax) 2023
-**/
-
 module register_file #(
     parameter data_size = 32,
     parameter regs_count = 16,

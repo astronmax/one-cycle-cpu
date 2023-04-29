@@ -1,11 +1,3 @@
-/**
- * Data Memory for CPU
- * Volume: 1024 32-bit cells
- * For each clock can write or read data by address
- *
- * author: Max A.Jurankov (astronmax) 2023
-**/
-
 module data_memory #(
     parameter data_size = 32,
     parameter size = 1024
